@@ -9,7 +9,7 @@ void loop() {
 }
 
 void serialEvent() { 
- String lectura = Serial.readString(); /
+ String lectura = Serial.readString(); 
      Serial.print("Se ingreso ");
       Serial.print(lectura);
   
